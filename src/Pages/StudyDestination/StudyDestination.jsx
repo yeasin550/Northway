@@ -1,3 +1,4 @@
+import ApplicationProcess from "../../components/Destination/ApplicationProcess/ApplicationProcess";
 import AtGlance from "../../components/Destination/AtGlance/AtGlance";
 import Blogs from "../../components/Destination/Blogs/Blogs";
 import CostEducation from "../../components/Destination/CostEducation/CostEducation";
@@ -12,6 +13,7 @@ const StudyDestination = () => {
     return (
         <div>
             <Study />
+            <ApplicationProcess/>
             <StudyUsa />
             <PopularUniversities />
             <CostEducation />

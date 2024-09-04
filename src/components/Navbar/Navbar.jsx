@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { FiMenu } from 'react-icons/fi'; // Import menu icon
+import { FiMenu } from 'react-icons/fi'; 
 import logo from "../../assets/Logo.png"
 
 const Navbar = () => {

@@ -7,7 +7,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const StudyUsa = () => {
     return (
-        <div className="md:px-14 py-10">
+        <div className="md:px-14 py-10 mt-5">
             {/* First Div */}
             <div className="w-11/12 mx-auto flex flex-col md:flex-row items-center md:items-start mb-10">
                 <div className="w-full md:w-1/2">
