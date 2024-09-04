@@ -8,15 +8,17 @@ const FAQS = () => {
             
             <div className="w-11/12 mx-auto gap-10 py-12 flex flex-col md:flex-row items-center md:items-start mb-10">
                 <div className="flex flex-col md:w-1/2 space-y-4">
-                    <h2 className="text-4xl font-bold mb-3">Study in <span className="text-[#F6941E]">USA FAQs</span>  </h2>
-                    <p className="text-gray-700 text-justify leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
+                    <div className="mb-2 space-y-3">
+                        <h2 className="text-4xl font-bold ">Study in <span className="text-[#F6941E]">USA FAQs</span>  </h2>
+                        <p className="text-gray-700 text-justify leading-relaxed">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                  </div>
 
 
                     <div className="mx-auto w-full mt-24">
                         <div className="divide-y divide-gray-100">
-                            <details className="group bg-white px-4 p-1">
+                            <details className="group bg-white px-4 p-1 mb-3">
                                 <summary
                                     className="flex cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900 group-open:text-primary-500">
                                     Can you work while studying in the United States?
@@ -32,7 +34,7 @@ const FAQS = () => {
                                 <div className="pb-4 text-secondary-500">International students can work on-campus or under certain off-campus conditions, but must follow specific visa regulations.</div>
                             </details>
 
-                            <details className="group bg-white px-4 p-1">
+                            <details className="group bg-white px-4 p-1 mb-3">
                                 <summary
                                     className="flex cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900 group-open:text-primary-500">
                                     Work Opportunities for Students in the United States
@@ -48,7 +50,7 @@ const FAQS = () => {
                                 <div className="pb-4 text-secondary-500">U.S. universities offer on-campus jobs, internships, and CPT/OPT programs, allowing students to gain valuable work experience.</div>
                             </details>
 
-                            <details className="group bg-white px-4 p-1">
+                            <details className="group bg-white px-4 p-1 mb-3">
                                 <summary
                                     className="flex cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900 group-open:text-primary-500">
                                     Balancing Work and Study in U.S. Universities
@@ -64,7 +66,7 @@ const FAQS = () => {
                                 <div className="pb-4 text-secondary-500">Students must manage their time effectively to balance work, studies, and personal life while maintaining academic performance.</div>
                             </details>
 
-                            <details className="group bg-white px-4 p-1">
+                            <details className="group bg-white px-4 p-1 mb-3">
                                 <summary
                                     className="flex cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900 group-open:text-primary-500">
                                     Part-Time Jobs for Students in the U.S.
@@ -80,7 +82,7 @@ const FAQS = () => {
                                 <div className="pb-4 text-secondary-500">Many students find part-time jobs on-campus or nearby, providing financial support and work experience during their studies.</div>
                             </details>
 
-                            <details className="group bg-white px-4 p-1">
+                            <details className="group bg-white px-4 p-1 mb-3">
                                 <summary
                                     className="flex cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900 group-open:text-primary-500">
                                     Understanding Work Options for U.S. Students

@@ -1,11 +1,15 @@
 /* eslint-disable react/no-unknown-property */
-import { FaLongArrowAltRight } from "react-icons/fa";
-
+import { FaLongArrowAltRight, FaRegUser } from "react-icons/fa";
+import Blog1 from "../../../assets/Blog1.png"
+import Blog2 from "../../../assets/Blog2.png"
+import Blog3 from "../../../assets/Blog3.png"
+import { MdDateRange } from "react-icons/md";
 
 const Blogs = () => {
     return (
-        <div className="py-12 md:px-14 md:w-11/12 mx-auto">
-            <div className="text-center ">
+        <div className="bg-[#F5F2EF]">
+        <div className="py-16 md:px-14 md:w-11/12 mx-auto">
+            <div className="text-center w-6/12 mx-auto mb-5">
                 <h2 className="text-4xl font-bold mb-5 relative z-10">
                     Our Latest <span className="text-[#F6941E]">Blog</span>
                 </h2>
@@ -16,6 +20,173 @@ const Blogs = () => {
             
           
 
+            <div className="mx-auto p-5">
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+                    {/* CARD 1 */}
+                    <div className="rounded overflow-hidden shadow-lg flex flex-col bg-white">
+                        <a href="#" />
+                        <div className="relative">
+                            <a href="#">
+                                <img
+                                    className="w-full"
+                                    src={Blog1}
+                                    alt="Sunset in the mountains"
+                                />
+                                <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 hover:bg-gray-900 opacity-25"></div>
+                            </a>
+                          
+                        </div>
+                        <div className="px-6 py-4 mb-auto space-y-3">
+                            <h1 className="flex items-center gap-2"> <MdDateRange />  July 24, 2024</h1>
+
+                            <a
+                                href="#"
+                                className="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
+                            >
+                                Emotional Intelligence in Education Building
+                            </a>
+
+                        </div>
+                        <div className="px-6 py-3 flex flex-row items-center justify-between ">
+                            <span
+                                href="#"
+                                className="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center"
+                            >
+                                <FaRegUser />
+                                <span className="ml-1">Back Theme</span>
+                            </span>
+                            <span
+                                href="#"
+                                className="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center"
+                            >
+                                <svg
+                                    className="h-5"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
+                                    ></path>
+                                </svg>
+                                <span className="ml-1">39 Comments</span>
+                            </span>
+                        </div>
+                    </div>
+                    {/* CARD 2 */}
+                    <div className="rounded overflow-hidden shadow-lg flex flex-col bg-white ">
+                        <a href="#" />
+                        <div className="relative">
+                            <a href="#">
+                                <img
+                                    className="w-full"
+                                    src={Blog2}
+                                    alt="Sunset in the mountains"
+                                />
+                                <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 hover:bg-gray-900 opacity-25"></div>
+                            </a>
+                       
+                        </div>
+                        <div className="px-6 py-4 mb-auto space-y-3">
+                            <h1 className="flex items-center gap-2"> <MdDateRange />  July 24, 2024</h1>
+
+                            <a
+                                href="#"
+                                className="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
+                            >
+                                Emotional Intelligence in Education Building
+                            </a>
+
+                        </div>
+                        <div className="px-6 py-3 flex flex-row items-center justify-between ">
+                            <span
+                                href="#"
+                                className="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center"
+                            >
+                                <FaRegUser />
+                                <span className="ml-1">Back Theme</span>
+                            </span>
+                            <span
+                                href="#"
+                                className="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center"
+                            >
+                                <svg
+                                    className="h-5"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
+                                    ></path>
+                                </svg>
+                                <span className="ml-1">0 Comments</span>
+                            </span>
+                        </div>
+                    </div>
+                    {/* CARD 3 */}
+                    <div className="rounded overflow-hidden shadow-lg flex flex-col bg-white">
+                        <a href="#" />
+                        <div className="relative">
+                            <a href="#">
+                                <img
+                                    className="w-full"
+                                    src={Blog3}
+                                    alt="Sunset in the mountains"
+                                />
+                                <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 hover:bg-gray-900 opacity-25"></div>
+                            </a>
+                        
+                        </div>
+                        <div className="px-6 py-4 mb-auto space-y-3">
+                            <h1 className="flex items-center gap-2"> <MdDateRange />  July 24, 2024</h1>
+
+                            <a
+                                href="#"
+                                className="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
+                            >
+                                Emotional Intelligence in Education Building
+                            </a>
+
+                        </div>
+                        <div className="px-6 py-3 flex flex-row items-center justify-between ">
+                            <span
+                                href="#"
+                                className="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center"
+                            >
+                                <FaRegUser />
+                                <span className="ml-1">Back Theme</span>
+                            </span>
+                            <span
+                                href="#"
+                                className="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center"
+                            >
+                                <svg
+                                    className="h-5"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
+                                    ></path>
+                                </svg>
+                                <span className="ml-1">9 Comments</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
@@ -28,6 +199,7 @@ const Blogs = () => {
                 <FaLongArrowAltRight />
 
             </button>
+        </div>
         </div>
     );
 };
