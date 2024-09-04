@@ -21,7 +21,7 @@ Our Latest Blog: Stay updated with articles and tips on studying and living in t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/yeasin550/Northway
 2. To install all the packages.
 3. Go to the terminal and command
    ```bash
