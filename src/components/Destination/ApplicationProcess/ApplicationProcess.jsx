@@ -17,7 +17,7 @@ const steps = [
 
 const ProcessStep = ({ icon: Icon, text, isLast }) => (
     <div className="flex flex-col items-center">
-        <div className="relative">
+        <div className="relative" data-aos="zoom-in">
             <div className="w-[80px] h-[80px] rounded-full border-2 border-dashed border-gray-400 flex items-center justify-center bg-white">
                 <Icon className="w-9 h-9 text-gray-600" />
             </div>
@@ -25,7 +25,7 @@ const ProcessStep = ({ icon: Icon, text, isLast }) => (
                 <div className="absolute top-1/2 left-full w-full border-t-2 border-dashed border-gray-500"></div>
             )}
         </div>
-        <div className="mt-4 text-center border border-gray-400 p-3 text-sm w-32 font-bold">{text}</div>
+        <div className="mt-4 text-center border border-gray-400 p-3 text-sm w-32 font-bold" data-aos="zoom-in-up">{text}</div>
     </div>
 );
 
@@ -37,7 +37,7 @@ const ApplicationProcess = () => {
         <div className="py-12 md:px-20">
 
             <div className="bg-gray-100 py-8 font-sans px-12">
-                <h1 className="text-4xl font-bold text-center mb-2">
+                <h1 className="text-4xl font-bold text-center mb-2" >
                     <span className="text-orange-500">Our</span> Application Process
                 </h1>
                 <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">

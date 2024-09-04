@@ -5,10 +5,10 @@ const CostEducation = () => {
     return (
         <div className="py-36 md:px-14">
             <div className="w-11/12 mx-auto flex flex-col md:flex-row items-center md:items-start mb-10">
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-1/2" data-aos="zoom-in-down">
                     <img src={CostEducationImg} alt="Left Image" className="rounded-md" />
                 </div>
-                <div className="flex flex-col md:w-1/2 space-y-4 mt-7">
+                <div className="flex flex-col md:w-1/2 space-y-4 mt-7" data-aos="zoom-out">
                     <h2 className="text-4xl font-bold mb-3"><span className="text-[#F6941E]">Cost</span> of education</h2> 
                     <p className="text-gray-700"> 
                         In the U.S., tuition fees very based on the state, the university funding model, and the students country of origin. So, listing an average is a rather difficult task. However, thanks to the folks at College Board, they have rendered an estimate of last years average tuition costs, which will roughly reflect the next few years.

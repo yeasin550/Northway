@@ -63,7 +63,9 @@ const StudentSpeak = () => {
 
     return (
         <div className="mb-[500px] md:mb-64">
-            <div className="relative mt-24 h-96 flex flex-col justify-center bg-cover bg-center" style={{ backgroundImage: `url(${studentSpeaks})` }}>
+            <div className="relative mt-24 h-96 flex flex-col justify-center bg-cover bg-center" style={{ backgroundImage: `url(${studentSpeaks})` }} data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                 <div className="absolute inset-0 bg-black opacity-75"></div>
                 <div className="relative px-20 mb-36 text-center w-7/12 mx-auto">
                     <h1 className="text-white text-4xl font-bold">Students <span className="text-[#F6941E]">Speak</span></h1>

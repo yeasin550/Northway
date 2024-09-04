@@ -11,8 +11,8 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="">
-            <div className="container font-bold mx-auto px-4 py-6 flex items-center justify-between">
+        <nav className="sticky top-0 bg-[#F5F5F5] z-50">
+            <div className="container mx-auto px-4 py-6 flex items-center justify-between">
                 {/* Logo */}
                 <div className="text-2xl font-bold">
                     <NavLink to="/" className="">
@@ -97,7 +97,7 @@ const Navbar = () => {
                         to="/"
                         exact
                         className={({ isActive }) =>
-                            `text-gray-800 hover:text-[#F8AF56] ${isActive ? 'font-bold text-[#F8AF56]' : ''}`
+                            `text-gray-800 hover:text-[#F8AF56] ${isActive ? 'font-bold text-[#F8AF56]' : 'text-[#F8AF56]'}`
                         }
                     >
                         Home
@@ -140,7 +140,7 @@ const Navbar = () => {
                             `text-gray-800 hover:text-[#F8AF56] ${isActive ? 'font-bold text-[#F8AF56]' : ''}`
                         }
                     >
-                        Contact
+                        Contacts
                     </NavLink>
                     <NavLink
                         to="/explore"

@@ -45,14 +45,13 @@ const PopularUniversities = () => {
             <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{ backgroundImage: `url(${University})` }}
-            >
-                <div className="absolute inset-0 bg-black opacity-75"></div> {/* Overlay with opacity */}
+                >
+                <div className="absolute inset-0 bg-black opacity-75"></div> 
             </div>
 
             <h2 className="text-4xl text-center font-bold mb-10 relative z-10 text-white">
                 <span className="text-[#F6941E]">Popular</span> Universities
             </h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, ipsa saepe! Temporibus obcaecati ipsum dicta sit! Officiis ratione porro, at cum voluptatibus sed ipsam sint? Alias ipsum reiciendis ipsam, doloremque odit, aut quia eius tempora placeat ut fugiat dignissimos perspiciatis? Ullam nulla voluptates consequatur voluptatem, in tempore excepturi quidem ex?</p>
             <div className="md:w-11/12 w-full md:px-14 px-4 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 relative z-10">
                 {universities.map((uni) => (
                     <div key={uni.id} className="bg-white md:w-[350px] shadow-md text-center rounded-md py-10 px-4 transition-transform transform hover:scale-105">
