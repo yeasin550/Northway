@@ -73,10 +73,10 @@ const Navbar = () => {
                 </div>
 
                 {/* Enquire Now Button */}
-                <div className="hidden md:block">
+                <div className="hidden md:block">                 
                     <NavLink
                         to="/explore"
-                        className="bg-white text-[#F8AF56]  border border-[#F8AF56]  px-4 py-2 rounded-sm hover:bg-purple-600 hover:text-white transition duration-300"
+                        className="bg-white border hover:text-white px-4 border-[#F8AF56] py-2 rounded-md hover:bg-[#F8AF56] transition duration-300 text-[#F8AF56]"
                     >
                         Enquire Now
                     </NavLink>
@@ -144,7 +144,7 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink
                         to="/explore"
-                        className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-300"
+                        className="bg-white border hover:text-white px-4 border-[#F8AF56] py-2 rounded-md hover:bg-[#F8AF56] transition duration-300 text-[#F8AF56]"
                     >
                         Enquire Now
                     </NavLink>

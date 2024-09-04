@@ -49,7 +49,7 @@ const AtGlance = () => {
     ];
 
     return (
-        <div className="md:px-12 py-10">
+        <div className="md:px-10 py-10">
             <h2 className="text-4xl text-center font-bold mb-10 relative z-10">
                 <span className="text-[#F6941E]">USA</span>  At a Glance
             </h2>

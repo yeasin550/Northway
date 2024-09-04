@@ -5,10 +5,10 @@ import Ellipse3 from "../../../assets/Ellipse3.png"
 
 const StudentSay = () => {
     return (
-        <div className="py-12 md:px-16 md:w-11/12 mx-auto">
+        <div className="py-12 md:px-16 px-5 md:w-11/12 mx-auto">
             <div className="md:w-7/12 ">
                 <h2 className="text-4xl font-bold mb-4 relative z-10">
-                    <span className="text-[#F6941E]">Whats</span>   our student say?
+                    <span className="text-[#F6941E]">Whats</span>   Our Student Say?
                 </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>

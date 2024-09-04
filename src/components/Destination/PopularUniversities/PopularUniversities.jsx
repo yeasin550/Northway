@@ -3,6 +3,7 @@ import ConnecticutImage from '../../../assets/Connecticut.png';
 import ArizonaImage from '../../../assets/Arizona.png';
 import CaliforniaImage from '../../../assets/California.png';
 import University from '../../../assets/university.png';
+import { FaLongArrowAltRight } from 'react-icons/fa';
 
 const PopularUniversities = () => {
     const universities = [
@@ -51,7 +52,8 @@ const PopularUniversities = () => {
             <h2 className="text-4xl text-center font-bold mb-10 relative z-10 text-white">
                 <span className="text-[#F6941E]">Popular</span> Universities
             </h2>
-            <div className="md:w-11/12 w-full md:px-14 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 relative z-10">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, ipsa saepe! Temporibus obcaecati ipsum dicta sit! Officiis ratione porro, at cum voluptatibus sed ipsam sint? Alias ipsum reiciendis ipsam, doloremque odit, aut quia eius tempora placeat ut fugiat dignissimos perspiciatis? Ullam nulla voluptates consequatur voluptatem, in tempore excepturi quidem ex?</p>
+            <div className="md:w-11/12 w-full md:px-14 px-4 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 relative z-10">
                 {universities.map((uni) => (
                     <div key={uni.id} className="bg-white md:w-[350px] shadow-md text-center rounded-md py-10 px-4 transition-transform transform hover:scale-105">
                         <img
@@ -65,6 +67,11 @@ const PopularUniversities = () => {
                     </div>
                 ))}
             </div>
+            <button className="hover:bg-[#F6941E] border border-white text-white flex items-center gap-2 justify-center relative z-10 mx-auto duration-500 rounded-sm w-40 py-2 font-bold mt-8">
+                View More
+                <FaLongArrowAltRight />
+
+            </button>
         </div>
     );
 };

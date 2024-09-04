@@ -54,7 +54,7 @@ const StudyUsa = () => {
                         One of the most technologically powerful and dynamic countries, USA is the largest & most dominant economy globally. Sectors that empower this world’s most productive economy include Healthcare, Technology, Construction, Retail, Manufacturing, Finance & Insurance, and Real Estate. Top jobs with high remuneration prospects for international students include Medicine, Computer & Information Systems Managers, Architectural & Engineering Managers, and Marketing & Financial Managers. The standard of living in the USA is among the highest in the world with high per capita income. This nation performs very well in many measures of well-being such as income & wealth, health status, jobs and earnings, education & skills, and environmental quality.
                     </p>
                  
-                    <button className="hover:bg-[#F6941E] border border-[#F6941E] hover:text-white flex items-center gap-2 justify-center rounded-sm w-40 py-2 font-bold mt-8">
+                    <button className="hover:bg-[#F6941E] border border-[#F6941E] hover:text-white flex items-center gap-2 justify-center duration-500 rounded-sm w-40 py-2 font-bold mt-8">
                         Red More
                         <FaLongArrowAltRight />
 

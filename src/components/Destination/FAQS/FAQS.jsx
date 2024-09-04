@@ -6,8 +6,8 @@ const FAQS = () => {
     return (
         <div className="md:px-14 py-14">
             
-            <div className="w-11/12 mx-auto gap-10 py-12 flex flex-col md:flex-row items-center md:items-start mb-10">
-                <div className="flex flex-col md:w-1/2 space-y-4">
+            <div className="w-11/12 mx-auto gap-10 py-12 flex flex-col-reverse md:flex-row items-center md:items-start mb-10">
+                <div className="flex flex-col  md:w-1/2 space-y-4">
                     <div className="mb-2 space-y-3">
                         <h2 className="text-4xl font-bold ">Study in <span className="text-[#F6941E]">USA FAQs</span>  </h2>
                         <p className="text-gray-700 text-justify leading-relaxed">
@@ -101,11 +101,6 @@ const FAQS = () => {
                             </details>
                         </div>
                     </div>
-
-
-
-
-
 
                     
                 </div>

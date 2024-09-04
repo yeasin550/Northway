@@ -8,17 +8,17 @@ import { MdDateRange } from "react-icons/md";
 const Blogs = () => {
     return (
         <div className="bg-[#F5F2EF]">
-        <div className="py-16 md:px-14 md:w-11/12 mx-auto">
-            <div className="text-center w-6/12 mx-auto mb-5">
-                <h2 className="text-4xl font-bold mb-5 relative z-10">
-                    Our Latest <span className="text-[#F6941E]">Blog</span>
-                </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            
+            <div className="py-16 md:px-14 md:w-11/12 mx-auto">
+                <div className="text-center w-6/12 mx-auto mb-5">
+                    <h2 className="text-4xl font-bold mb-5 relative z-10">
+                        Our Latest <span className="text-[#F6941E]">Blog</span>
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
 
-            
-          
+
+
+
 
                 <div className="mx-auto p-5">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
@@ -66,13 +66,13 @@ const Blogs = () => {
                             </div>
                             <div className="px-6 py-4 mb-auto space-y-3">
                                 <h1 className="flex items-center gap-2">
-                                    <MdDateRange /> July 24, 2024
+                                    <MdDateRange /> March 11, 2019
                                 </h1>
                                 <a
                                     href="#"
                                     className="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out mb-2"
                                 >
-                                    Emotional Intelligence in Education Building
+                                    Learning And Communication Community
                                 </a>
                             </div>
                             <div className="px-6 py-3 flex items-center justify-between">
@@ -102,13 +102,13 @@ const Blogs = () => {
                             </div>
                             <div className="px-6 py-4 mb-auto space-y-3">
                                 <h1 className="flex items-center gap-2">
-                                    <MdDateRange /> July 24, 2024
+                                    <MdDateRange /> Jan 19, 2021
                                 </h1>
                                 <a
                                     href="#"
                                     className="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out mb-2"
                                 >
-                                    Emotional Intelligence in Education Building
+                                    Education Building And Communication
                                 </a>
                             </div>
                             <div className="px-6 py-3 flex items-center justify-between">
@@ -136,12 +136,12 @@ const Blogs = () => {
 
 
 
-            <button className="hover:bg-[#F6941E] border border-[#F6941E] hover:text-white flex items-center gap-2 justify-center rounded-sm w-48 mx-auto py-2 font-bold mt-8">
-                Browse More Blog
-                <FaLongArrowAltRight />
+                <button className="hover:bg-[#F6941E] border border-[#F6941E] hover:text-white flex items-center gap-2 justify-center rounded-sm duration-500 w-48 mx-auto py-2 font-bold mt-8">
+                    Browse More Blog
+                    <FaLongArrowAltRight />
 
-            </button>
-        </div>
+                </button>
+            </div>
         </div>
     );
 };
